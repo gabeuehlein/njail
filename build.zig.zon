@@ -1,0 +1,13 @@
+.{
+    .name = .njail,
+    .version = "0.0.0",
+    .fingerprint = 0xd9575dc99407ae1, // Changing this has security and trust implications.
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+        "src",
+        // For example...
+        //"LICENSE",
+        //"README.md",
+    },
+}
